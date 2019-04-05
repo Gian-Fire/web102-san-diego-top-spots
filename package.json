@@ -1,16 +1,32 @@
 {
-    "name": "san-diego-top-spots",
-    "version": "0.1.0",
-    "scripts": {
-        "test": "mocha --exit"
-    },
-    "dependencies": {
-        "chai": "^4.0.2",
-        "express": "^4.15.3",
-        "jquery": "^3.2.1",
-        "lodash": "^4.17.4",
-        "mocha": "^5.2.0",
-        "morgan": "^1.8.2",
-        "nightmare": "^2.10.0"
-    }
+  "name": "san-diego-top-spots",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "dependencies": {
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "mocha": "^5.2.0",
+    "morgan": "^1.8.2",
+    "nightmare": "^2.10.0"
+  },
+  "description": "A simple app that lists and links you to the location of the top spots to check out while in San Diego.",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanDiegoCodeSchool/web102-san-diego-top-spots.git"
+  },
+  "author": "GianFiyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanDiegoCodeSchool/web102-san-diego-top-spots/issues"
+  },
+  "homepage": "https://github.com/SanDiegoCodeSchool/web102-san-diego-top-spots#readme"
 }
